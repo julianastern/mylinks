@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-image: url('background-image.jpg'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* Text color for captions */
+        }
+        .gallery {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .photo {
+            margin-bottom: 20px;
+        }
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .caption {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <!-- Photo 1 -->
+        <div class="photo">
+            <img src="photo1.jpg" alt="Photo 1">
+            <div class="caption">Caption for Photo 1</div>
+        </div>
+        <!-- Photo 2 -->
+        <div class="photo">
+            <img src="photo2.jpg" alt="Photo 2">
+            <div class="caption">Caption for Photo 2</div>
+        </div>
+        <!-- Photo 3 -->
+        <div class="photo">
+            <img src="photo3.jpg" alt="Photo 3">
+            <div class="caption">Caption for Photo 3</div>
+        </div>
+        <!-- Photo 4 -->
+        <div class="photo">
+            <img src="photo4.jpg" alt="Photo 4">
+            <div class="caption">Caption for Photo 4</div>
+        </div>
+        <!-- Photo 5 -->
+        <div class="photo">
+            <img src="photo5.jpg" alt="Photo 5">
+            <div class="caption">Caption for Photo 5</div>
+        </div>
+        <!-- Photo 6 -->
+        <div class="photo">
+            <img src="photo6.jpg" alt="Photo 6">
+            <div class="caption">Caption for Photo 6</div>
+        </div>
+        <!-- Photo 7 -->
+        <div class="photo">
+            <img src="photo7.jpg" alt="Photo 7">
+            <div class="caption">Caption for Photo 7</div>
+        </div>
+    </div>
+</body>
+</html>
